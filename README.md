@@ -1,10 +1,14 @@
-![example movie](http://cl.ly/image/0D3A1S2j3Q43/pushsegueexample.gif)
+This is an example of a basic Push segue between two scenes made with Storyboard. Useful for quick flow prototyping. The title bar has been removed from the Navigation Controller to provide a full canvas for static comps.
 
-This is an example of a basic Push segue between two scenes using the Storyboard interface. The unwind/back action requires this IBAction in the root ViewController class:
+## How it works
+
+Enabling the unwind/back function requires this IBAction be placed in the root ViewController class:
 
 ```swift
 @IBAction func unwindSegue(segue: UIStoryboardSegue) {
 
 }
 ```
-In Storyboard, add a button to the destination scene and cmd-drag from it to the Exit icon on the top bar. When prompted, select 'unwindSegue'.
+In Storyboard, add a button to the destination scene and ctrl-drag it to the Exit icon in the scene's control bar. When prompted to select an Action Segue, select 'unwindSegue'.
+
+![example movie](http://cl.ly/image/0D3A1S2j3Q43/pushsegueexample.gif)
