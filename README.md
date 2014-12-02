@@ -7,4 +7,4 @@ Very basic Push segue between two scenes using the Storyboard interface. The unw
 ```
 This will now be accessible in the Exit dialog (right click the Exit icon on the Storyboard panel) which can be connected (cmd-drag) to a button in the scene.
 
-![example movie](http://cl.ly/430J3V3x232K/Screen%20Recording%202014-12-01%20at%2004.19%20PM.mov)
+![example movie](http://cl.ly/image/0D3A1S2j3Q43/pushsegueexample.gif)
