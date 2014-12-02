@@ -1,4 +1,4 @@
-This is an example of a basic Push segue between two scenes made with Storyboard. Useful for quick flow prototyping. The title bar has been removed from the Navigation Controller to provide a full canvas for static comps.
+This is an example of a basic Push segue between two scenes using Storyboard and Swift. The title bar has been removed from the Navigation Controller to provide a full canvas for static comps. Useful for quick flow prototyping.
 
 ## How it works
 
