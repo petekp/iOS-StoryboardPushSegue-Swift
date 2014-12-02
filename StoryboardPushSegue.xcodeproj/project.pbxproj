@@ -13,6 +13,7 @@
 		2B28A0DF1A2D25C60051AE3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B28A0DE1A2D25C60051AE3E /* Images.xcassets */; };
 		2B28A0E21A2D25C60051AE3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B28A0E01A2D25C60051AE3E /* LaunchScreen.xib */; };
 		2B28A0EE1A2D25C60051AE3E /* StoryboardPushSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28A0ED1A2D25C60051AE3E /* StoryboardPushSegueTests.swift */; };
+		2B28A0F81A2D2D710051AE3E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28A0F71A2D2D710051AE3E /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B28A0E71A2D25C60051AE3E /* StoryboardPushSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardPushSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B28A0EC1A2D25C60051AE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B28A0ED1A2D25C60051AE3E /* StoryboardPushSegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardPushSegueTests.swift; sourceTree = "<group>"; };
+		2B28A0F71A2D2D710051AE3E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		2B28A0D41A2D25C60051AE3E /* StoryboardPushSegue */ = {
 			isa = PBXGroup;
 			children = (
-				2B28A0D71A2D25C60051AE3E /* AppDelegate.swift */,
 				2B28A0D91A2D25C60051AE3E /* ViewController.swift */,
+				2B28A0F71A2D2D710051AE3E /* ViewController2.swift */,
+				2B28A0D71A2D25C60051AE3E /* AppDelegate.swift */,
 				2B28A0DB1A2D25C60051AE3E /* Main.storyboard */,
 				2B28A0DE1A2D25C60051AE3E /* Images.xcassets */,
 				2B28A0E01A2D25C60051AE3E /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				2B28A0DA1A2D25C60051AE3E /* ViewController.swift in Sources */,
 				2B28A0D81A2D25C60051AE3E /* AppDelegate.swift in Sources */,
+				2B28A0F81A2D2D710051AE3E /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

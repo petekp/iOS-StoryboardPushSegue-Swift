@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  StoryboardPushSegue
 //
 //  Created by Pete Petrash on 12/1/14.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class ViewController2: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -17,12 +17,5 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
-        // Triggered using next Storyboard's 'Exit' interface
-    }
-    
-    
-    
-}
 
+}
